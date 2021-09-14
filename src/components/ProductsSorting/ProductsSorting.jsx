@@ -12,7 +12,6 @@ const ProductsSorting = () => {
     }
 
     useEffect(() => {
-        console.log("In effect",selectedSort)
         if (selectedSort === 'asc'){
             dispatch(sortProductsDataAsc())
     

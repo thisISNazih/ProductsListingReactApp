@@ -6,6 +6,7 @@ export const productsSlice = createSlice({
     productsData: [],
     filteredData: [], 
     filtersSelected: false
+
   },
   reducers: {
     setProductsData: (state, action) => {
@@ -27,6 +28,7 @@ export const productsSlice = createSlice({
       state.filteredData = state.productsData.filter(
         (item) => item.price >= min && item.price <= max
       ) 
+      state.filtersSelected = true; 
      
    }, 
     sortProductsDataAsc: (state, action) => { 
