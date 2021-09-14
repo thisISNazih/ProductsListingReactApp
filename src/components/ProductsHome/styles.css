@@ -1,0 +1,15 @@
+body {
+    margin: 0; 
+    overflow-x: hidden;
+}
+.homePage-wrapper__main { 
+    display: flex;
+  flex-wrap: wrap;
+    margin-top: 2rem;
+} 
+.homePage-wrapper__main > .filters-placeholder{
+    width: 30%;
+} 
+.homePage-wrapper__main > .listing-placeholder{
+    width:70%;
+}

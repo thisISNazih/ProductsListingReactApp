@@ -1,0 +1,7 @@
+.slider-wrapper {
+    padding: 1rem;
+    background-color: whitesmoke;
+} 
+.slider-wrapper > .title {
+    font-weight: 900;
+}

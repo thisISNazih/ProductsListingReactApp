@@ -1,0 +1,25 @@
+.productsFilters-wrapper {
+    display: flex;
+    flex-direction: column;
+ }  
+ .filter-title {
+     font-weight: 900;
+ } 
+ .filters-list {
+    list-style-type: none; 
+    padding: 0;
+ } 
+ .filters-list > li {
+     margin-bottom: 1.3rem;
+     font-weight: 700;
+ } 
+ .filters-list > li:hover {
+     color: #00B0B8; 
+     cursor: pointer;  
+     opacity: 0.9;
+ }
+ .productsFilters-wrapper > .productsFilters-wrapper__filterPlaceholder {
+     padding: 1rem;
+     background-color: #F6F7F8; 
+     margin-bottom: 1rem;
+ }

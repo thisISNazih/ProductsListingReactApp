@@ -1,0 +1,8 @@
+.productsList-wrapper {
+    display: flex;
+    flex-direction: column;
+} 
+.productsList-wrapper > .divider {
+    border: 1px solid #F6F7F8;
+    width: 100%;
+}
